@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@300;400&display=swap');
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #1A1A1A;	
+	text-decoration: none;
+	font-size: 15px;
+	list-style: none;
+}
+
+section {
+	min-height: 100vh;
+}
+a {
+	text-decoration: none !important;
+	color: #1A1A1A;
+}
+a:hover {	
+	text-decoration: none;
+}
+.intro {
+	font-size: 23px;
+	background: url(../img/bg_intro.png) center no-repeat;
+}
+.mouse_link {
+	position: relative;
+}
+.mouse_link:hover {
+	bottom: 10px;
+}
+.contacts_top {
+	font-size: 15px;
+	font-weight: 400;
+}
+.intro_logo_header {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: 600;
+	color: rgb(255, 112, 57);
+}
+.intro_logo_border {
+	background: linear-gradient(135deg, rgb(255, 86, 66), rgb(255, 112, 57));
+}
+.intro_logo_text {
+	Font-size: 23px;
+}
+.intro a,
+.intro a *{
+	font-size: 18px;
+	color: rgba(26, 26, 26, 0.75);
+}
+.intro a:hover {
+	color: #FF5641;
+}
+.txt_header {
+	font-family: MADE Evolve Sans;
+	font-size: 31px;
+	line-height: 36px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+}
+.activity {
+	font-size: 18px;
+	font-weight: 300;	
+	line-height: 22px;
+}
+.activity_item:hover {
+	background-color: #F4F4F4
+}
+.benefits {
+	background-image: url(../img/bg_benefits.png);
+}
+.benefits_item:hover {
+	background-color: rgba(244, 244, 244, 0.5);
+}
+.benefits_border {
+	border: 5px solid #FF5641;
+	margin: 0;
+}
+.benefits_txt {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+.benefits_txt_header {
+	font-family: MADE Evolve Sans;
+	font-size: 24px;
+	line-height: 28px;
+	margin: auto;
+}
+.contancs {
+
+}
+footer {
+	color: #ffffff;
+	background: no-repeat center top url(../img/bg_footer.png);
+}
+footer * {
+	color: #ffffff;
+	font-size: 17px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+.for_icons img {
+	margin: 0 5px 0 20px;
+}
+.send_btn {
+	color:#ffffff;
+	background: linear-gradient(91.15deg, #FF5641 40.07%, #FF7039 100%);
+	border: 1px solid #FF5641;
+}
+.send_btn:hover {
+	color: #3A3A3A;
+}
+.to_top {
+	background-color: #FF5641;
+}
+.rights {
+	color: #DCDCDC;
+	text-align: center;
+	background-color: #000000;
+	font-size: 12px;
+
+}
